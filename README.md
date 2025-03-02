@@ -1,3 +1,9 @@
+Cluster repo - https://gitlab.cs.uni-saarland.de/mara00002/torch-condor-template
+- Has clear instruction about setting up miniconda env
+- Any new installations that are required
+- Along with distintct setup and run jobs
+
+
 Creating docker environment using the docker image - https://hub.docker.com/repository/docker/depalipawade/mmaction2/general
 1. Edit train.sub file , change docker image to - depalipawade/mmaction2:tensorflow
 2. execute sub file to create a setup job
