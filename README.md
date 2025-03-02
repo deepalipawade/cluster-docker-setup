@@ -1,12 +1,14 @@
 Cluster repo - https://gitlab.cs.uni-saarland.de/mara00002/torch-condor-template
 - Has clear instruction about setting up miniconda env
 - Any new installations that are required
-- Along with distintct setup and run jobs
+- Along with distinct setup and run jobs
 
-Another way to go about the using exisitng docker image instead of the one give in .sub files
+Another way to go about using exisitng Docker image instead of the one given in .sub files
 - Creating docker environment using the docker image - [https://hub.docker.com/repository/docker/depalipawade/mmaction2/general](https://hub.docker.com/r/depalipawade/mmaction2/tags)
-- Edit train.sub file , change docker image to - depalipawade/mmaction2:tensorflow
+- Edit train.sub file, change docker image to - depalipawade/mmaction2:tensorflow
 - Execute sub file to create a setup job
+
+To set up SSH keys to avoid entering password and username@domain
 
 ```
 scp ~/.ssh/sic_cluster.pub <team_id>@conduit.cs.uni-saarland.de:~/
@@ -19,6 +21,7 @@ To check if ssh key is working(since key is not accessible, we are checking - ma
 ```
 ssh -i ~/.ssh/sic_cluster nnti 
 ```
+
 
 To add key automatically - 
 ```
