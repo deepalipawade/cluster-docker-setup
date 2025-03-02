@@ -3,7 +3,7 @@ Cluster repo - https://gitlab.cs.uni-saarland.de/mara00002/torch-condor-template
 - Any new installations that are required
 - Along with distintct setup and run jobs
 
-Anoth way to go about the using exisitng docker image instead of the one give in .sub files
+Another way to go about the using exisitng docker image instead of the one give in .sub files
 - Creating docker environment using the docker image - [https://hub.docker.com/repository/docker/depalipawade/mmaction2/general](https://hub.docker.com/r/depalipawade/mmaction2/tags)
 - Edit train.sub file , change docker image to - depalipawade/mmaction2:tensorflow
 - Execute sub file to create a setup job
