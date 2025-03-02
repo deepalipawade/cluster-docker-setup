@@ -19,7 +19,7 @@ To add key automatically -
 Host my-cluster
   HostName cluster-ip
   User myuser
-  IdentityFile ~/sssh/sic_cluster
+  IdentityFile ~/.ssh/sic_cluster
 ```
 
 References :
